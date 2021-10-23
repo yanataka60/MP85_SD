@@ -59,8 +59,10 @@ Arduino　　　　　　　　　　MP-85
 
 　　Errorと表示された場合は、SD-Cardが挿入されていない、ファイルNoのファイルが存在しない、読み込み中に何らかのエラーが発生した場合ですので確認してください。
 
-###Load(Monitor-ROMを修正していない場合)
- ファイルNoを7F34Hにセット(例:ファイルNo　8000:73F4/ADRSSET/00/WRITEINCR/80/WRITEINCR)、実行アドレスをセット(7F1E/ADRSSET/00/WRITEINCR/10/WRITEINCR)して、RUNキーを押します。
+### Load(Monitor-ROMを修正していない場合)
+ ファイルNoを7F34Hにセット(例:ファイルNo　8000:73F4/ADRSSET/00/WRITEINCR/80/WRITEINCR)、
+ 
+ 実行アドレスをセット(7F1E/ADRSSET/00/WRITEINCR/10/WRITEINCR)して、RUNキーを押します。
  
 ### Save(Monitor-ROMを修正した場合)
 　　FUNCキーを押した後にSAVEキーを押します。
@@ -74,4 +76,10 @@ Arduino　　　　　　　　　　MP-85
 　　Errorと表示された場合は、SD-Cardが挿入されていない、ファイルNoのファイルが既に存在する(上書き不可です)、書き込み中に何らかのエラーが発生した場合ですので確認してください。
 
 ### Save(Monitor-ROMを修正していない場合)
- ファイルNoを7F34Hにセット(例:ファイルNo　8000:73F4/ADRSSET/00/WRITEINCR/80/WRITEINCR)、Save開始アドレスをセット(例:開始アドレス　7C80:7336/ADRSSET/80/WRITEINCR/7C/WRITEINCR)、Save終了アドレスをセット(例:終了アドレス　7CFF:734D/ADRSSET/FF/WRITEINCR/7C/WRITEINCR)、実行アドレスをセット(7F1E/ADRSSET/03/WRITEINCR/10/WRITEINCR)して、RUNキーを押す。
+ ファイルNoを7F34Hにセット(例:ファイルNo　8000:73F4/ADRSSET/00/WRITEINCR/80/WRITEINCR)、
+ 
+ Save開始アドレスをセット(例:開始アドレス　7C80:7336/ADRSSET/80/WRITEINCR/7C/WRITEINCR)、
+ 
+ Save終了アドレスをセット(例:終了アドレス　7CFF:734D/ADRSSET/FF/WRITEINCR/7C/WRITEINCR)、
+ 
+ 実行アドレスをセット(7F1E/ADRSSET/03/WRITEINCR/10/WRITEINCR)して、RUNキーを押す。
