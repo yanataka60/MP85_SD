@@ -33,7 +33,7 @@ Arduino　　　　　　　　　　MP-85
 　　6(IN :input)　　　　-----　　PA0(OUT:output)　CN2-12
 
 ## ROM
-　file_trans_MP85(1000-1148).binを2716に焼いてIC27に装着します。
+　file_trans_MP85.binを2716に焼いてIC27に装着します。
 
 　IC25のMonitor-romの内容をコピーし、0168H～016BHのデータを修正した後、IC25に装着することでカセットへのロード、セーブの操作方法そのままにSD-Cardへのロード、セーブが可能となります。
 
