@@ -1,3 +1,4 @@
+;MP-85 Sample
 ; LEDを右回りに点滅
         ORG     7C00H   
 
