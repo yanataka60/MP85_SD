@@ -83,3 +83,6 @@ Arduino　　　　　　　　　　MP-85
  Save終了アドレスをセット(例:終了アドレス　7CFF:734D/ADRSSET/FF/WRITEINCR/7C/WRITEINCR)、
  
  実行アドレスをセット(7F1E/ADRSSET/03/WRITEINCR/10/WRITEINCR)して、RUNキーを押す。
+
+## 今後
+　Monior-ROMのカセットI/Oルーチンの解析が進めばSD-Cardルーチンと置き換え、拡張ROMを必要としないようにしたいと考えています。
