@@ -1,6 +1,6 @@
 # MITEC MP-85にSD-Cardとのロード、セーブ機能
 
-MP-85にSD-CARDを繋いだARDUINO(SD_ACCESS)とのシリアル同期通信によりロード、セーブを提供するルーチンです。
+シリアル同期通信によりMP-85とSD_ACCESS(ARDUINO+SD-CARD)とのロード、セーブを提供するルーチンです。
 
 
 ## 必要なもの
