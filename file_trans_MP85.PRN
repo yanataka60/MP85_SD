@@ -247,7 +247,6 @@
   1143  C9            			RET
                       	
                       	;8255初期化
-                      	;PORTA下位BITをOUTPUT、PORTB下位BITをINPUT
   1144                	INIT:	
                       	;出力BITをリセット(PORTA)
   1144  3E00          	INIT2:	LD		A,00H      ;PORTA <- 0
